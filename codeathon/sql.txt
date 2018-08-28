@@ -1,0 +1,9 @@
+create table(
+Planname varchar(25),
+MonthlyRental varchar(10),
+FreeInternet varchar(10),
+FreeSms varchar(10),
+Callacharges varchar(10),
+SmsCharges varcha(10),
+Datacharges varchar(10),
+Roamingcharges varchar(10));
