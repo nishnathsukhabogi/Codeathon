@@ -1,0 +1,53 @@
+<html>
+<head>
+<title="Telecom operator Application Form"></title>
+<body>
+ <link href = "form.css" type = "text/css" rel = "stylesheet" />    
+        <h2>PostPaid form</h2>    
+        <form name = "form1" action="modified.php" method = "post" enctype = "multipart/form-data" >    
+            <div class = "container">    
+                <div class = "form_group">    
+                    <label>Plan Name:</label>    
+                    <input type = "text" name = "pname" value = "" required/>    
+                </div>    
+                <div class = "form_group">    
+                <label>Monthly Rental:</label>    
+                    <input type = "text" name = "mr"value = "" required/>
+					</div>
+             
+				<div class = "form_group">    
+                  <label>Free Internet:</label>    
+                    <input type = "text" name = "fri" value = "" required/>     
+				</div>    
+			 
+				<div class = "form_group">  
+                  <label>Free SMS</label>    
+                    <input type = "text" name = "fsms" value = "" required/>    
+			</div>
+			<div class = "form_group">  
+                  <label>Free Calls</label>    
+                    <input type = "text" name = "fcalls" value = "" required/>    
+			</div>
+			<div class = "form_group">   
+			<label>Call Charges:</label>    
+                    <input type = "text" name = "CallCharge" value = "" required/>    
+             </div> 
+			<div class = "form_group">   
+					<label>SMS Charges:</label>    
+                    <input type = "text" name = "SmsCharge" value = "" required/>    
+                </div> 
+ 			<div class = "form_group">   
+					<label>Data Charges:</label>    
+                    <input type = "text" name = "dataCharge" value = "" required/>    
+               </div>
+		   <div class = "form_group">   
+					<label>Roaming Charges:</label>    
+                    <input type = "text" name = "roamingCharges" value = "" required/>    
+               </div> 
+			   <div class = "form_group"> 
+		<input type="submit" name="submit" value="Submit"/>	
+			</div>		
+      </div>    
+        </form>    
+    </body>   
+</html>	
