@@ -1,4 +1,4 @@
-create table(
+create table postpaid(
 Planname varchar(25),
 MonthlyRental varchar(10),
 FreeInternet varchar(10),
